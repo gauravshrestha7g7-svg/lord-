@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Proposal</title>
+<style>
+body{height:100vh;display:flex;justify-content:center;align-items:center;background:pink;}
+.box{background:white;padding:30px;border-radius:15px;position:relative;}
+#no{position:absolute;left:120px;}
+</style>
+</head>
+
+<body>
+<div class="box">
+<h2>Will you be mine? 💖</h2>
+<button id="yes">YES</button>
+<button id="no">NO</button>
+<p id="msg" style="display:none;">😍 I knew it!</p>
+</div>
+
+<script>
+no.onmouseover=()=>no.style.transform=`translate(${Math.random()*200-100}px,${Math.random()*200-100}px)`;
+yes.onclick=()=>{msg.style.display="block";yes.style.display=no.style.display="none";}
+</script>
+</body>
+</html>
